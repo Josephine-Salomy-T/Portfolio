@@ -1,0 +1,415 @@
+body{
+    height: 100%;
+
+}
+#fullBody{
+    position: relative;
+    min-height: 100vh;
+}
+#mainBody{
+    padding-bottom: 100px;
+}
+#navBar{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 8px;
+    text-align: center;
+    height: 50px;
+    float: right;
+    width: 500px;
+
+    border-radius: 5px;
+    background-color: white;
+}
+#navDiv{
+    border: 1px solid #1A237E;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 2px 4px #D6EAF8;
+}
+.nav-item{
+    color: #1A237E;
+    border: none;
+    background-color: white;
+}
+#homebtn:hover ,#edubtn:hover, #skillbtn:hover, #projectsbtn:hover{
+    background-color: #1A237E;
+    color: white;
+    border-radius: 5px;
+  }
+#intro{
+    
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+#leftContainer{
+    
+    margin: 20px;
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+}
+#content{
+    display: flex;
+    flex-direction: row;
+}
+#name{
+   
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 35px;
+    margin: 0;
+    color:#1A237E;
+    text-shadow: 2px 0px #D6EAF8;
+    margin-top: 10px;
+    letter-spacing: 20px;
+    writing-mode: vertical-rl;
+}
+#image1{
+    width: 200px;
+    height: 300px;
+    box-shadow: 4px 4px #D6EAF8;
+}
+#aboutDiv{
+    margin-top: 50px;
+    padding: 10px;
+    margin: 20px;
+    float: right;
+    height: 350px;
+    width: 500px;
+    margin-bottom: 100px;
+    
+}
+#aboutContent{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    height: 350px;
+    padding: 10px;
+    background-color: #1A237E;
+    color: white;
+    box-shadow: 2px 2px 5px 5px #D6EAF8;
+}
+#sign{
+    height: 100px;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: right;
+    font-family: "WindSong", cursive;
+}
+
+
+#qualificationDiv{
+    height: 520px;
+    width:90%;
+    margin: 50px;
+}
+#verticalLine{
+    
+    width: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 50px;
+   border-right: 2px solid #D6EAF8;
+}
+#verticalLine2{
+   
+    width: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 260px;
+    margin-top: 50px;
+    margin-left: 30px;
+   border-right: 2px solid #D6EAF8;
+}
+.dot{
+    height: 20px;
+    width: 20px;
+    
+    box-shadow: 2px 2px 2px 2px #D6EAF8;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+#eduDiv{
+    
+    height: 400px;
+    width: 100%
+}
+#profDiv{
+    height: 400px;
+    width: 100%;
+    
+}
+#eduTotal{
+    text-align: center;
+    margin: 20px;
+    height: 400px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px #D6EAF8;
+}
+#qualTitle{
+    margin-bottom: 30px;
+    color: #1A237E;
+    text-shadow: 2px 0px  #D6EAF8;
+}
+
+#educard1, #educard2, #profcard1, #profcard2{
+    margin-right: 0;
+    background-color: #D6EAF8;
+    margin-top: 20px;
+    height: 160px;
+    width: 100%;
+
+    margin-left: 5px;
+    text-align: justify;
+    
+    padding: 3px;
+    border: none;
+}
+#profcard2{
+    height: 180px;
+}
+#profcard1{
+    padding: 5px;
+    height: 140px;
+}
+#educard2{
+    margin-top: 10px;
+}
+#clgName, #skolName, #Newgen, #Sandeza{
+    font-weight: 500;
+    font-size: 15px;
+    color: #0288D1;
+}
+#batch, #duration, #duration2{
+    padding: 3px;
+    margin-left: 3px;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: white;
+}
+#clgDescription, #skolDescription, #newgenDescription, #sandezaDescription{
+    font-size: 13px;
+    text-align: justify;
+}
+#sandezaList{
+    
+    font-size: 13px;
+}
+
+#skillsDiv{
+    margin-top: 50px;
+    margin-left: 50px;
+    height: auto;
+    width: 90%;
+    margin-bottom: 100px;
+}
+#skillsContent{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+#frontContent{
+    width: 45%;
+}
+#frontEnd{
+    
+    margin-left: 80px;
+    text-align: center;
+    color: #1A237E;
+}
+#backendContent{
+
+    float: right;
+    width: 45%;
+}
+#backEnd{
+    
+    margin-left: 80px;
+    text-align: center;
+    color: #1A237E;
+}
+#HTML,#CSS,#JS,#C,#Java,#SQL{
+    height: 40px;
+    width: 90%;
+    margin-top: 30px;
+    padding-left: 3px;
+    color: #0288D1;
+    background-color: #D6EAF8;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-bottom: 3px solid black;
+    border-image:linear-gradient(to right, #0288D1 90%,transparent 10%) 100% 1;
+    box-shadow: 2px 1px 2px 2px silver;
+
+}
+#CSS{
+    border-bottom: 3px solid black;
+    border-image:linear-gradient(to right, #0288D1 85%,transparent 10%) 100% 1;
+}
+#JS{
+    border-bottom: 3px solid black;
+    border-image:linear-gradient(to right, #0288D1 75%,transparent 10%) 100% 1;
+}
+#Java{
+    border-bottom: 3px solid black;
+    border-image:linear-gradient(to right, #0288D1 80%,transparent 10%) 100% 1;
+}
+#SQL{
+    border-bottom: 3px solid black;
+    border-image:linear-gradient(to right, #0288D1 70%,transparent 10%) 100% 1;
+}
+#HTMLcontent, #CSScontent, #sqlContent, #javaContent, #Ccontent, #JScontent{
+    padding-top: 5px;
+}
+#title{
+    font-size: 18px;
+    font-weight: 500;
+    float: left;
+   
+}
+#percent{
+    float: right;
+}
+
+
+#projectsDiv{
+    
+    height: 400px;
+    width: 90%;
+    margin-left: 45px;
+    margin-right: 10px;
+    margin-bottom: 50px;
+    
+}
+
+#projectsContent{
+    margin: 20px;
+    width: 90%;
+    display: flex;
+    margin-left: 50px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+
+  .flip-card {
+    background-color: transparent;
+    width: 100%;
+    height: 300px;
+    margin: 20px;
+    
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px 5px #D6EAF8;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    border-radius: 8px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card1-back, .flip-card2-back, .flip-card3-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+    border-radius: 8px;
+  }
+  
+  /* Style the back side */
+  .flip-card1-back {
+    border-radius: 8px;
+    text-align: justify;
+    background-color: #1A237E  ;
+    color: white;
+    padding: 5px;
+    transform: rotateY(180deg);
+  }
+   
+  .flip-card2-back {
+    border-radius: 8px;
+    background-color: #1A237E ;
+    text-align: justify;
+    color: white;
+    padding: 5px;
+    transform: rotateY(180deg);
+  }
+
+  .flip-card3-back {
+    border-radius: 8px;
+    padding: 5px;
+    background-color:#1A237E ;
+    text-align: justify;
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+  #footerDiv{
+    position: absolute;
+    bottom: 0;
+    
+   
+    height: 100px;
+    width: 100%;
+    
+    align-items: center;
+
+    
+    border: 1px solid black;
+    background-color: #1A237E;
+    color: white;
+    
+    
+  }
+  #footerContent{
+    height: 40px;
+    margin-top: 40px;
+    margin-left: 30%;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    
+  }
+a:hover{
+    
+    text-decoration: none;
+    color: white;
+}
+
+
