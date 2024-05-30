@@ -1,6 +1,9 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
     height: 100%;
     width: 100%;
+     /* Added font-family for better cross-device compatibility */
 }
 #fullBody{
     
@@ -11,24 +14,19 @@ body{
     padding-bottom: 100px;
 }
 #navBar{
-    
     display: flex;
     justify-content: space-evenly;
-    margin-top: 8px;
-    text-align: center;
-    height: 50px;
-    float: right;
-    width: 500px;
-
-    border-radius: 5px;
-    background-color: white;
-}
-#navDiv{
-    border: 1px solid #1A237E;
+    align-items: center; /* Center items vertically */
     height: 60px;
     width: 100%;
+}
+#navDiv {
+    border: 1px solid #1A237E;
     background-color: white;
     box-shadow: 2px 4px #D6EAF8;
+    position: sticky; /* Ensures navbar sticks to the top when scrolling */
+    top: 0;
+    z-index: 1000; /* Ensures it's above other content */
 }
 .nav-item{
     color: #1A237E;
@@ -40,45 +38,49 @@ body{
     color: white;
     border-radius: 5px;
   }
-#intro{
+  #intro {
     
-display: flex;
-flex-direction: row;
-justify-content: center;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    flex-direction: row; /* Change to row to place items side by side */
+    justify-content: center;/* Center items vertically */
 }
 #leftContainer{
     
-    margin: 20px;
-    margin-top: 100px;
-    height: 300px;
-    width: 300px;
+    
+    margin-top: 70px;
+    width: 80%; /* Adjusted width for better responsiveness */
+    max-width: 400px;
 }
 #content{
     display: flex;
     flex-direction: row;
+    flex: 1;
+
 }
 #name{
    
     font-family: "Bebas Neue", sans-serif;
-    font-size: 35px;
-    margin: 0px;
-    color:#1A237E;
-    text-shadow: 2px 0px #D6EAF8;
-    margin-top: 10px;
-    letter-spacing: 20px;
-    writing-mode: vertical-rl;
+    font-size: 35px; /* Decreased font size for better readability on smaller screens */
+    letter-spacing: 10px; /* Adjusted letter spacing */
+    writing-mode: vertical-lr; /* Changed writing mode for better readability */
+    text-align: center;
+    margin-right: 20px;
 }
 #image1{
     width: 200px;
     height: 300px;
+    margin-right: 20px;
     box-shadow: 4px 4px #D6EAF8;
 }
 #aboutDiv{
     
-    height: 30%;
-    width: 40%;
-    margin-top:6%;
-    padding: 10px;
+    margin-top: 6%; /* Adjusted margin for better spacing */
+    width: 50%; /* Adjusted width for better responsiveness */
+    max-width: 400px;
+
     margin-bottom: 100px;
 
     background-color: #1A237E;
@@ -109,7 +111,9 @@ justify-content: center;
     margin-left: 5%;
     margin-right: 5%;
     height: 30%;
-    width:100%;
+    width: 100%; 
+    max-width: 1150px;/* Adjusted width for better responsiveness */
+   
     
 }
 #verticalLine{
@@ -220,10 +224,10 @@ justify-content: center;
 }
 
 #skillsDiv{
-    margin-top: 50px;
-    margin-left: 50px;
-    height: auto;
-    width: 90%;
+    margin-left: auto; /* Centers the skills section */
+    margin-right: auto;
+    width: 100%; 
+    max-width: 1150px;
     margin-bottom: 100px;
     
 }
@@ -300,9 +304,11 @@ justify-content: center;
 #projectsDiv{
     
     height: 400px;
-    width: 90%;
-    margin-left: 45px;
-    margin-right: 10px;
+    margin-left: auto; /* Centers the projects section */
+    margin-right: auto;
+   
+    width: 100%; 
+    max-width: 1150px;
     margin-bottom: 50px;
     
 }
@@ -314,6 +320,7 @@ justify-content: center;
     margin-left: 50px;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 
 
@@ -397,10 +404,12 @@ justify-content: center;
 
 
 
+ 
   #footerDiv{
     position: absolute;
     bottom: 0;
-    
+    margin-left: 15px;
+    margin-right: 15px;
    
     height: 100px;
     width: 100%;
